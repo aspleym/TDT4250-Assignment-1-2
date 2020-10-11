@@ -27,8 +27,7 @@ git clone https://github.com/aspleym/TDT4250-Assignment-1-2.git
 3. Navigate to the following directory:
 (`/studyplan.xtext/src-gen/studyplan/xtext/`)
 4. Open the file `Department.xmi` to edit data.
-5. For generating a html-file navigate to the following directory:
-and run `GeneratorMain.java`.
+5. For generating a html-file run `GeneratorMain.java`.
   a. PS! Remember to re-run `GeneratorMain.java` after changes to the data.
 
 ## Content
