@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sp:Department
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:sp="sp"
+    xsi:schemaLocation="sp sp.ecore"
+    name="NTNU">
+  <programmes
+      name="Ingeniørvitenskap og IKT">
+    <specialisations
+        name="IKT &amp; Maskinteknikk">
+      <years
+          number="4">
+        <semesters
+            number="7">
+          <courses
+              course="//@courses.0"
+              picked="true"/>
+          <courses
+              course="//@courses.20"
+              picked="true"/>
+          <courses
+              course="//@courses.26"
+              picked="true"/>
+          <courses
+              course="//@courses.28"
+              picked="true"/>
+        </semesters>
+        <semesters
+            number="8">
+          <courses
+              course="//@courses.30"
+              picked="true"/>
+          <courses
+              course="//@courses.31"
+              picked="true"/>
+          <courses
+              course="//@courses.32"
+              mandatory="true"
+              picked="true"/>
+          <courses
+              course="//@courses.0"
+              picked="true"/>
+        </semesters>
+      </years>
+      <years
+          number="5">
+        <semesters
+            number="9">
+          <courses
+              course="//@courses.33"
+              picked="true"/>
+          <courses
+              course="//@courses.34"
+              picked="true"/>
+          <courses
+              course="//@courses.35"
+              picked="true"/>
+        </semesters>
+        <semesters
+            number="10">
+          <courses
+              course="//@courses.36"
+              picked="true"/>
+        </semesters>
+      </years>
+    </specialisations>
+    <years number="1">
+      <semesters
+          number="1">
+        <courses
+            course="//@courses.2"
+            mandatory="true"
+            picked="true"/>
+        <courses
+            course="//@courses.1"
+            mandatory="true"
+            picked="true"/>
+        <courses
+            course="//@courses.3"
+            mandatory="true"
+            picked="true"/>
+        <courses
+            course="//@courses.4"
+            mandatory="true"
+            picked="true"/>
+      </semesters>
+      <semesters
+          number="2">
+        <courses
+            course="//@courses.5"
+            mandatory="true"
+            picked="true"/>
+        <courses
+            course="//@courses.6"
+            mandatory="true"
+            picked="true"/>
+        <courses
+            course="//@courses.7"
+            mandatory="true"
+            picked="true"/>
+        <courses
+            course="//@courses.8"
+            mandatory="true"
+            picked="true"/>
+      </semesters>
+    </years>
+    <years number="2">
+      <semesters
+          number="3">
+        <courses
+            course="//@courses.9"
+            mandatory="true"
+            picked="true"/>
+        <courses
+            course="//@courses.10"
+            mandatory="true"/>
+        <courses
+            course="//@courses.11"
+            mandatory="true"/>
+        <courses
+            course="//@courses.12"
+            mandatory="true"/>
+      </semesters>
+      <semesters
+          number="4">
+        <courses
+            course="//@courses.13"
+            mandatory="true"/>
+        <courses
+            course="//@courses.14"
+            mandatory="true"/>
+        <courses
+            course="//@courses.15"
+            mandatory="true"/>
+        <courses
+            course="//@courses.16"
+            mandatory="true"/>
+      </semesters>
+    </years>
+    <years number="3">
+      <semesters
+          number="5">
+        <courses
+            course="//@courses.17"
+            mandatory="true"
+            picked="true"/>
+        <courses
+            course="//@courses.18"
+            picked="true"/>
+        <courses
+            course="//@courses.19"
+            picked="true"/>
+        <courses
+            course="//@courses.21"
+            picked="true"/>
+      </semesters>
+      <semesters
+          number="6">
+        <courses
+            course="//@courses.22"
+            mandatory="true"
+            picked="true"/>
+        <courses
+            course="//@courses.25"
+            picked="true"/>
+        <courses
+            course="//@courses.24"
+            picked="true"/>
+        <courses
+            course="//@courses.27"
+            picked="true"/>
+      </semesters>
+    </years>
+  </programmes>
+  <courses code="TDT4250"
+      name="Avansert programvaredesign"
+      credit="7.5"
+      level="3"/>
+  <courses code="TMA4100"
+      name="Matematikk 1"
+      credit="7.5"
+      level="1"/>
+  <courses code="TDT4105"
+      name="Informasjonsteknologi, grunnkurs"
+      credit="7.5"
+      level="1"/>
+  <courses code="TMA4140"
+      name="Diskret matematikk"
+      credit="7.5"
+      level="1"/>
+  <courses code="TMR4325"
+      name="Ingeniørvitenskap og IKT, introduksjon"
+      credit="7.5"
+      level="1"/>
+  <courses code="EXPH0004"
+      name="Examen philosophicum for naturvitenskap og teknologi"
+      credit="7.5"
+      level="1"/>
+  <courses code="TDT4100"
+      name="Objektorientert programmering"
+      credit="7.5"
+      level="2"/>
+  <courses code="TKT4116"
+      name="Mekanikk 1"
+      credit="7.5"
+      level="1"/>
+  <courses code="TMA4105"
+      name="Matematikk 2"
+      credit="7.5"
+      level="2"/>
+  <courses code="TDT4120"
+      name="Algoritmer og datastrukturer"
+      credit="7.5"
+      level="3"/>
+  <courses code="TMA4240"
+      name="Statistikk"
+      credit="7.5"
+      level="1"/>
+  <courses code="TKT4122"
+      name="Mekanikk 2"
+      credit="7.5"
+      level="2"/>
+  <courses code="TMA4110"
+      name="Matematikk 3"
+      credit="7.5"
+      level="3"/>
+  <courses code="TDT4140"
+      name="Programvareutvikling"
+      credit="7.5"
+      level="3"/>
+  <courses code="TDT4145"
+      name="Datamodellering og databasesystemer"
+      credit="7.5"
+      level="3"/>
+  <courses code="TEP4100"
+      name="Fluidmekanikk"
+      credit="7.5"
+      level="3"/>
+  <courses code="TFY4106"
+      name="Fysikk"
+      credit="7.5"
+      level="1"/>
+  <courses code="TMA4130"
+      name="Matematikk 4N"
+      credit="7.5"
+      level="4"/>
+  <courses code="TDT4165"
+      name="Programmeringsspråk"
+      credit="7.5"
+      level="3"/>
+  <courses code="TDT4195"
+      name="Grunnleggende visuell databehandling"
+      credit="7.5"
+      level="3"/>
+  <courses code="TMM4270"
+      name="Automatisering i ingeniørarbeid, introduksjon"
+      credit="7.5"
+      level="2"/>
+  <courses code="TDT4136"
+      name="Introduksjon til kunstig intelligens"
+      credit="7.5"
+      level="3"/>
+  <courses code="TIØ4252"
+      name="Teknologiledelse"
+      credit="7.5"
+      level="3"/>
+  <courses code="TDT4180"
+      name="Menneske maskin-interaksjon"
+      credit="7.5"
+      level="2"/>
+  <courses code="TDT4240"
+      name="Programvarearkitektur"
+      credit="7.5"
+      level="4"/>
+  <courses code="TMM4100"
+      name="Materialteknikk"
+      credit="7.5"
+      level="2"/>
+  <courses code="TMM4150"
+      name="Maskinkonstruksjon og mekatronikk"
+      credit="7.5"
+      level="3"/>
+  <courses code="TDT4200"
+      name="Parallelle beregninger"
+      credit="7.5"
+      level="4"/>
+  <courses code="MFEL3010"
+      name="Medisin for realfag- og teknologistudenter"
+      credit="7.5"
+      level="1"/>
+  <courses code="TMM4275"
+      name="Automatisering i ingeniørarbeid, prosjekt"
+      credit="7.5"
+      level="3"/>
+  <courses code="TDT4265"
+      name="Datasyn og dyp læring"
+      credit="7.5"
+      level="4"/>
+  <courses code="TMM4175"
+      name="Plastkompositter"
+      credit="7.5"
+      level="4"/>
+  <courses code="TTK4852"
+      name="Eksperter i team - Maskinlæring"
+      credit="7.5"
+      level="4"/>
+  <courses code="TMM4540"
+      name="Industriell IKT produktutvikling og materialer, fordypningsprosjekt"
+      credit="15.0"
+      level="3"/>
+  <courses code="TMM4250"
+      name="Avansert produktsimulering"
+      credit="7.5"
+      level="5"/>
+  <courses code="TIØ4295"
+      name="Bedriftsøkonomi"
+      credit="7.5"
+      level="4"/>
+  <courses code="TMM4935"
+      name="Industriell IKT, masteroppgave"
+      credit="30.0"
+      level="5"/>
+</sp:Department>

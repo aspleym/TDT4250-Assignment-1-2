@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: assignment2.xtext
+Bundle-ManifestVersion: 2
+Bundle-Name: assignment2.xtext
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: studyplan.xtext;singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: TDT4250_-_Assignment_2,
+ org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.xtend.lib.source;bundle-version="2.22.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
