@@ -13,54 +13,48 @@ h1 {
     display: flex;
     padding: 10px 8vw;
     flex-direction: column;
-    width: 45vw;
     min-width: fit-content;
-    //background-color: #eee;
-    border-radius: 10px;
     
 }
 
 .department {
     display: flex;
-    font-family: serif;
+    font-family: Arial;
     font-size: 2.5em;
-    align-self: center;
     color: rgb(0,80,158);
+    align-self: center;
 }
 
 .programme {
     display: flex;
     font-size: 1.5em;
+    align-self: center;
 }
 
 .specialisation {
-    margin: 10px 0px 0px;
     display: flex;
     font-size: 1.3em;
-    border-bottom: dashed;
     border-color: #888;
     width: fit-content;
 }
 
 .specialisation-secondary {
-    margin: 10px 0px 0px;
     display: flex;
     font-size: 1.3em;
 }
 
 .year {
-    margin: 10px 0px 0px;
     display: flex;
     font-size: 1.2em;
 }
 
-.table {
+.box {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    margin: 10px;
-    background-color: #ddd;
-    border-radius: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(0,80,158);
     overflow: hidden;
 }
 
@@ -69,12 +63,14 @@ h1 {
     display: flex;
     font-size: 1.1em;
     width: 100%;
+    color: #eee;
 }
 
 .course, .header {
     display: flex;
     flex-direction: row;
     margin: 5px 0px 0px;
+    color: #eee;
 }
 
 .header {
@@ -82,26 +78,25 @@ h1 {
 }
 
 .code {
-    width: 20%;
+    width: 30%;
+    color: #eee;
 }
 
 .name {
-    width: 60%;
+    width: 100%;
+    color: #eee;
 }
 
 .credits {
-    width: 8%;
+    width: 14%;
+    color: #eee;
 }
 
 .status {
     width: 10%;
+    color: #eee;
 }
 
-.border {
-    border-bottom: solid;
-    border-color: #888;
-    border-radius: 5px;
-}
 
 /* Dropdown Button */
 .dropbtn {
@@ -114,18 +109,18 @@ h1 {
   cursor: pointer;
 }
 
-/* Dropdown button on hover & focus */
+
 .dropbtn:hover, .dropbtn:focus {
   background-color: rgb(0,100,178);
 }
 
-/* The container <div> - needed to position the dropdown content */
+
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -135,10 +130,6 @@ h1 {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
-
-
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd}
 
 /* Show the dropdown menu */

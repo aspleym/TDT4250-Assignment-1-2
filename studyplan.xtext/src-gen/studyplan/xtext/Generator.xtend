@@ -68,7 +68,7 @@ class Generator {
 		stringbuilder << "<div class='programme'>Programme: " << pro.name << "</div>\n"
 		pro.years.forEach[generateOutput(it, stringbuilder)]
 		pro.specialisations.forEach[generateOutput(it, false, stringbuilder)]
-		stringbuilder << "<div class='border'></div>\n<br>\n<br>\n"
+		stringbuilder << "<br>\n<br>\n"
 		stringbuilder << "</div>\n"
 	}
 	
@@ -89,7 +89,7 @@ class Generator {
 	
 	// Generate html from data in Semester
 	def dispatch void generateOutput(Semester sm, StringBuilder stringbuilder) { 
-		stringbuilder << "<div class='table'>\n"
+		stringbuilder << "<div class='box'>\n"
 		stringbuilder << "<div class='semester'>" << sm.number << ". Semester</div>\n"
 		stringbuilder << "<div class='header'>\n"
 		stringbuilder << "<div class='code'>Code</div>\n"

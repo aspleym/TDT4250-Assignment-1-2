@@ -125,7 +125,7 @@ public class Generator {
       this.generateOutput(it, Boolean.valueOf(false), stringbuilder);
     };
     pro.getSpecialisations().forEach(_function_1);
-    this.operator_doubleLessThan(stringbuilder, "<div class=\'border\'></div>\n<br>\n<br>\n");
+    this.operator_doubleLessThan(stringbuilder, "<br>\n<br>\n");
     this.operator_doubleLessThan(stringbuilder, "</div>\n");
   }
   
@@ -177,7 +177,7 @@ public class Generator {
   }
   
   protected void _generateOutput(final Semester sm, final StringBuilder stringbuilder) {
-    this.operator_doubleLessThan(stringbuilder, "<div class=\'table\'>\n");
+    this.operator_doubleLessThan(stringbuilder, "<div class=\'box\'>\n");
     StringBuilder _doubleLessThan = this.operator_doubleLessThan(stringbuilder, "<div class=\'semester\'>");
     int _number = sm.getNumber();
     StringBuilder _doubleLessThan_1 = this.operator_doubleLessThan(_doubleLessThan, Integer.valueOf(_number));
