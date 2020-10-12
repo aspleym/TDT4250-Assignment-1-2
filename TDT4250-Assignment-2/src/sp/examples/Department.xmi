@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sp:Department
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:sp="sp"
+    xsi:schemaLocation="sp sp.ecore"
+    name="NTNU">
+  <programmes
+      name="Ingeniørvitenskap og IKT"
+      numberOfYears="5">
+    <specialisations
+        name="IKT &amp; Maskinteknikk">
+      <years
+          number="4">
+        <semesters
+            number="1">
+          <courses
+              course="//@courses.0"
+              picked="true"/>
+        </semesters>
+      </years>
+    </specialisations>
+    <years number="1">
+      <semesters
+          number="1">
+        <courses
+            course="//@courses.1"
+            mandatory="true"
+            picked="true"/>
+      </semesters>
+    </years>
+  </programmes>
+  <courses code="TDT4250"
+      name="Avansert programvaredesign"
+      credit="7.5"
+      level="3"/>
+  <courses code="TMA4100"
+      name="Matematikk 1"
+      credit="7.5"
+      level="1"/>
+</sp:Department>
