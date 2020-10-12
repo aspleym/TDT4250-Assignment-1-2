@@ -65,7 +65,7 @@ class Generator {
 	// Generate html from data in Programme
 	def dispatch void generateOutput(Programme pro, StringBuilder stringbuilder) { 
 		stringbuilder << "<div id='" << pro.name << "' class='programDiv' style='display: none;'>\n"
-		stringbuilder << "<div class='programme'>Programme: " << pro.name << "</div>\n"
+		stringbuilder << "<div class='programme'>" << pro.name << "</div>\n"
 		pro.years.forEach[generateOutput(it, stringbuilder)]
 		pro.specialisations.forEach[generateOutput(it, false, stringbuilder)]
 		stringbuilder << "<br>\n<br>\n"
@@ -81,9 +81,7 @@ class Generator {
 	
 	// Generate html from data in Year
 	def dispatch void generateOutput(Year yr, StringBuilder stringbuilder) { 
-		stringbuilder << "<div class='year'>" << yr.number << ". Year. Showing "
-		// Check number of semesters with function made in assignment 1 and print the text
-		stringbuilder << yr.semesters.size() << " semester"<< (yr.semesters.size() > 1 ? "s:" : ":") << "</div>\n"
+		stringbuilder << "<div class='year'>" << yr.number << ". Year </div>\n"
 		yr.semesters.forEach[generateOutput(it, stringbuilder)]
 	}
 	

@@ -113,7 +113,7 @@ public class Generator {
     String _name = pro.getName();
     StringBuilder _doubleLessThan_1 = this.operator_doubleLessThan(_doubleLessThan, _name);
     this.operator_doubleLessThan(_doubleLessThan_1, "\' class=\'programDiv\' style=\'display: none;\'>\n");
-    StringBuilder _doubleLessThan_2 = this.operator_doubleLessThan(stringbuilder, "<div class=\'programme\'>Programme: ");
+    StringBuilder _doubleLessThan_2 = this.operator_doubleLessThan(stringbuilder, "<div class=\'programme\'>");
     String _name_1 = pro.getName();
     StringBuilder _doubleLessThan_3 = this.operator_doubleLessThan(_doubleLessThan_2, _name_1);
     this.operator_doubleLessThan(_doubleLessThan_3, "</div>\n");
@@ -156,20 +156,7 @@ public class Generator {
     StringBuilder _doubleLessThan = this.operator_doubleLessThan(stringbuilder, "<div class=\'year\'>");
     int _number = yr.getNumber();
     StringBuilder _doubleLessThan_1 = this.operator_doubleLessThan(_doubleLessThan, Integer.valueOf(_number));
-    this.operator_doubleLessThan(_doubleLessThan_1, ". Year. Showing ");
-    int _size = yr.getSemesters().size();
-    StringBuilder _doubleLessThan_2 = this.operator_doubleLessThan(stringbuilder, Integer.valueOf(_size));
-    StringBuilder _doubleLessThan_3 = this.operator_doubleLessThan(_doubleLessThan_2, " semester");
-    String _xifexpression = null;
-    int _size_1 = yr.getSemesters().size();
-    boolean _greaterThan = (_size_1 > 1);
-    if (_greaterThan) {
-      _xifexpression = "s:";
-    } else {
-      _xifexpression = ":";
-    }
-    StringBuilder _doubleLessThan_4 = this.operator_doubleLessThan(_doubleLessThan_3, _xifexpression);
-    this.operator_doubleLessThan(_doubleLessThan_4, "</div>\n");
+    this.operator_doubleLessThan(_doubleLessThan_1, ". Year </div>\n");
     final Consumer<Semester> _function = (Semester it) -> {
       this.generateOutput(it, stringbuilder);
     };

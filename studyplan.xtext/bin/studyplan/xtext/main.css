@@ -46,6 +46,7 @@ h1 {
 .year {
     display: flex;
     font-size: 1.2em;
+    padding-top: 10px;
 }
 
 .box {
